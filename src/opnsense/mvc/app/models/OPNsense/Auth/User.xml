@@ -1,0 +1,25 @@
+<model>
+    <mount>/system/user+</mount>
+    <version>1.0.0</version>
+    <items>
+        <user type="ArrayField">
+            <name type="TextField"/>
+            <scope type="TextField"/>
+            <expires type="TextField"/>
+            <authorizedkeys type="TextField"/>
+            <uid type="TextField"/>
+            <otp_seed type="TextField"/>
+            <shell type="TextField"/>
+            <user_dn type="TextField"/>
+            <password type="TextField"/>
+            <landing_page type="TextField"/>
+            <comment type="TextField"/>
+            <email type="TextField"/>
+            <apikeys type=".\ApiKeyField"/>
+            <priv type=".\PrivField"/>
+            <descr type="DescriptionField">
+                <Required>Y</Required>
+            </descr>
+        </user>
+    </items>
+</model>

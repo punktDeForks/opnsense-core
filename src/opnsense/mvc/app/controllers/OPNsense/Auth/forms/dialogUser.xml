@@ -1,0 +1,12 @@
+<form>
+    <field>
+        <id>user.name</id>
+        <label>Name</label>
+        <type>text</type>
+    </field>
+    <field>
+        <id>user.descr</id>
+        <label>Description</label>
+        <type>text</type>
+    </field>
+</form>
